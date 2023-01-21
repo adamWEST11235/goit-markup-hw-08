@@ -1,0 +1,38 @@
+.customers {
+	display: flex;
+	justify-content: center;
+
+	&__title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.16;
+		text-align: center;
+		letter-spacing: 0.03em;
+		margin-bottom: 50px;
+	}
+	&__list {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		gap: 26px;
+	}
+	&__item {
+		width: 172px;
+		height: 92px;
+		fill: #afb1b8;
+		border: 1px solid #afb1b8;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: border, border-radius, fill;
+		&:hover,
+		&:focus {
+			border: 1px solid $color-hover;
+			border-radius: 4px;
+			fill: $color-hover;
+		}
+	}
+}

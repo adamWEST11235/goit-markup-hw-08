@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.min.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container header--flex">
+				<a href="index.html" class="logo logo--padding-r"
+					>Web<span class="logo--color1">Studio</span></a
+				>
+				<nav class="nav--flex">
+					<ul class="nav">
+						<li class="nav__item">
+							<a href="index.html" class="nav__link">Agencja</a>
+						</li>
+						<li class="nav__item">
+							<a href="portfolio.html" class="nav__link active__page">Portfolio</a>
+						</li>
+						<li class="nav__item"><a href="#" class="nav__link">Kontakt</a></li>
+					</ul>
+				</nav>
+				<ul class="contact-head">
+					<li>
+						<a href="mailto:info@devstudio.com" class="contact-head__mail"
+							><svg class="contact-head__mail--icon" width="16" height="12">
+								<use href="./images/icons.svg#icon-envelope"></use></svg
+							><span>info@devstudio.com</span></a
+						>
+					</li>
+					<li>
+						<a href="tel:+48111111111" class="contact-head__phone"
+							><svg class="contact-head__phone--icon" width="10" height="16">
+								<use href="./images/icons.svg#icon-smartphone"></use></svg
+							><span>+48 111 111 111</span></a
+						>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<section class="section portfolio">
+				<div class="container">
+					<ul class="list portfolio__buttonlist">
+						<li>
+							<button type="button" class="portfolio__button">Wszystkie</button>
+						</li>
+						<li>
+							<button type="button" class="portfolio__button">Strony</button>
+						</li>
+						<li>
+							<button type="button" class="portfolio__button">Aplikacje</button>
+						</li>
+						<li>
+							<button type="button" class="portfolio__button">Dizajn</button>
+						</li>
+						<li>
+							<button type="button" class="portfolio__button">Marketing</button>
+						</li>
+					</ul>
+					<ul class="list portfolio__projects">
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img1.jpg"
+										height="294"
+										width="370"
+										alt="Strona internetowa na której możemy zobczyc zdjęcia trzech osób. Dwójkę dziewczyny i chłopaka"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Teachnocrack</h4>
+									<p class="project__description__type">Strona internetowa</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img2.jpg"
+										height="294"
+										width="370"
+										alt="Dwuch zawodników NBA walczy o piłkę"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Grafika New Orlean vs Golden Star</h4>
+									<p class="project__description__type">Dizajn</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img3.jpg"
+										height="294"
+										width="370"
+										alt="Logo The Seafood Restaurant na którym widziemy rybę"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Restauracja Seafood</h4>
+									<p class="project__description__type">Aplikacja</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img4.jpg"
+										height="294"
+										width="370"
+										alt="Słuchawki nauszne koloru czarnego"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Projekt Prime</h4>
+									<p class="project__description__type">Marketing</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img5.jpg"
+										height="294"
+										width="370"
+										alt="Dwa pudełka, jedno białe i większe drugie brązowe mniejsze"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Projekt Boxes</h4>
+									<p class="project__description__type">Aplikacja</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img6.jpg"
+										height="294"
+										width="370"
+										alt="Monitor na którym widzimy wyświetloną stronę internetową "
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Inspiration has no Borders</h4>
+									<p class="project__description__type">Strona internetowa</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img7.jpg"
+										height="294"
+										width="370"
+										alt="Magazyn Limit Edition "
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Magazyn Limited Edition</h4>
+									<p class="project__description__type">Dizajn</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img8.jpg"
+										height="294"
+										width="370"
+										alt="Pszywieszka koloru białego z napisem L A B E L T A G"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Projekt LAB</h4>
+									<p class="project__description__type">Marketing</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure class="project">
+								<div class="project__box">
+									<img
+										src="images/portfolio-img9.jpg"
+										height="294"
+										width="370"
+										alt="Laptop z wyswietloną stroną GROWING BUSINESS"
+									/>
+									<div class="project__overlay">
+										<p class="project__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
+											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
+											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
+										</p>
+									</div>
+								</div>
+								<figcaption class="project__description">
+									<h4 class="project__description__title">Growing Business</h4>
+									<p class="project__description__type">Aplikacja</p>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<div>
+					<a href="index.html" class="logo">Web<span class="logo--color2">Studio</span></a>
+					<address class="contact-footer__address">m. Warszawa, Aleje Jerozolimskie 21</address>
+					<ul class="contact-footer">
+						<li class="contact-footer__item">
+							<a href="mailto:info@example.com" class="contact-footer__mail">info@example.com</a>
+						</li>
+						<li class="contact-footer__item">
+							<a href="tel:+48111111111" class="contact-footer__phone">+48 111 111 111</a>
+						</li>
+					</ul>
+				</div>
+				<div class="socialmedia-footer">
+					<h3 class="socialmedia-footer__title">Dołącz do nas</h3>
+					<ul class="socialmedia">
+						<li>
+							<a class="socialmedia__link" href="https://www.instagram.com/" target="_blank"
+								><svg width="44" height="44">
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
+									<use
+										class="socialmedia__icon socialmedia__icon--footer"
+										width="22"
+										height="22"
+										x="11"
+										y="11"
+										href="./images/icons.svg#icon-instagram-2"
+									></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="socialmedia__link" href="https://twitter.com/" target="_blank">
+								<svg width="44" height="44">
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
+									<use
+										class="socialmedia__icon socialmedia__icon--footer"
+										width="22"
+										height="22"
+										x="11"
+										y="11"
+										href="./images/icons.svg#icon-twitter-1"
+									></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="socialmedia__link" href="https://facebook.com/" target="_blank">
+								<svg width="44" height="44">
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
+									<use
+										class="socialmedia__icon socialmedia__icon--footer"
+										width="22"
+										height="22"
+										x="11"
+										y="11"
+										href="./images/icons.svg#icon-facebook-1"
+									></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="socialmedia__link" href="https://www.linkedin.com/" target="_blank">
+								<svg width="44" height="44">
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
+									<use
+										class="socialmedia__icon socialmedia__icon--footer"
+										width="22"
+										height="22"
+										x="11"
+										y="11"
+										href="./images/icons.svg#icon-linkedin-1"
+									></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="newsletter">
+					<h3 class="newsletter__title">Zapisz się do newslettera</h3>
+					<form class="newsletter__form">
+						<input class="newsletter__form__input" type="email" name="email" placeholder="E-mail" />
+						<button class="button-footer">
+							<span class="button-footer__text">Zapisz się</span>
+							<svg class="button-footer__img" width="24" height="24">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

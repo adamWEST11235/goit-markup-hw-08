@@ -1,0 +1,105 @@
+.header {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	height: 80px;
+	border-bottom: 1px solid #ececec;
+
+	&--flex {
+		display: flex;
+		align-items: center;
+		padding: 15px;
+	}
+}
+.nav {
+	list-style: none;
+	display: flex;
+	gap: 46px;
+	&--flex {
+		list-style: none;
+		display: flex;
+	}
+
+	&__link {
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.15;
+		letter-spacing: 0.02em;
+		color: $secoundary-text-color;
+		display: block;
+		position: relative;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: color;
+		&:hover,
+		&:focus {
+			color: $color-hover;
+		}
+	}
+}
+.active__page {
+	color: $color-hover;
+	&:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 4px;
+		background: $color-hover;
+		border-radius: 2px;
+		bottom: -33px;
+		right: 0px;
+	}
+}
+.contact-head {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	gap: 50px;
+
+	&__mail {
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.15;
+		letter-spacing: 0.02em;
+		color: $third-text-color;
+		fill: $third-text-color;
+		display: block;
+		display: flex;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: color, fill;
+		&:hover,
+		&:focus {
+			color: $color-hover;
+			fill: $color-hover;
+		}
+		&--icon {
+			margin-right: 10px;
+		}
+	}
+
+	&__phone {
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.15;
+		letter-spacing: 0.02em;
+		color: $third-text-color;
+		fill: $third-text-color;
+		display: flex;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: color, fill;
+		&:hover,
+		&:focus {
+			color: $color-hover;
+			fill: $color-hover;
+		}
+		&--icon {
+			margin-right: 10px;
+		}
+	}
+}

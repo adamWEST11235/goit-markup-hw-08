@@ -1,0 +1,40 @@
+.socialmedia {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	list-style: none;
+	&__link {
+		//
+	}
+	&__circle {
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: fill;
+		.socialmedia__link:hover &,
+		.socialmedia__link:focus & {
+			fill: $color-hover;
+		}
+		&--team {
+			fill: #ffffff;
+		}
+		&--footer {
+			fill: #ffffff1a;
+		}
+	}
+	&__icon {
+		fill: #afb1b8;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-property: fill;
+		.socialmedia__link:hover &,
+		.socialmedia__link:focus & {
+			fill: $text-color;
+		}
+		&--team {
+			fill: #afb1b8;
+		}
+		&--footer {
+			fill: #fff;
+		}
+	}
+}

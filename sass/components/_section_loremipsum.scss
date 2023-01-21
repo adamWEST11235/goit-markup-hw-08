@@ -1,0 +1,29 @@
+.loremipsum {
+	&__section {
+		display: flex;
+		justify-content: center;
+	}
+	&__image {
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+		padding: 25px 100px;
+	}
+	&__destripction {
+		&__title {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.15;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			color: $secoundary-text-color;
+		}
+		&__paragraph {
+			font-size: 14px;
+			line-height: 1.71;
+			letter-spacing: 0.03em;
+			color: $third-text-color;
+			margin-top: 10px;
+		}
+	}
+}
