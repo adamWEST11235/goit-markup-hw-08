@@ -2,6 +2,7 @@
 	&__section {
 		display: flex;
 		justify-content: center;
+		padding-bottom:0px;
 	}
 	&__image {
 		background-color: #f5f4fa;
@@ -24,6 +25,7 @@
 			letter-spacing: 0.03em;
 			color: $third-text-color;
 			margin-top: 10px;
+			text-align: left;
 		}
 	}
 }

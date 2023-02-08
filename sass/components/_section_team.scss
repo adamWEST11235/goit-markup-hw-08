@@ -2,6 +2,8 @@
 	background-color: #f5f4fa;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	gap:30px;
 	&__title {
 		font-weight: 700;
 		font-size: 36px;
@@ -9,7 +11,7 @@
 		text-align: center;
 		letter-spacing: 0.03em;
 		color: $secoundary-text-color;
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 }
 .profile {
@@ -22,6 +24,8 @@
 	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin-top: 30px;
+	
 	&__description {
 		padding-bottom: 30px;
 	}

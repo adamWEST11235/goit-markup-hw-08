@@ -1,25 +1,30 @@
 .header {
 	background-color: #ffffff;
-	display: flex;
-	justify-content: center;
-	height: 80px;
+	height: 60px;
 	border-bottom: 1px solid #ececec;
+	padding: 10px;
 
-	&--flex {
+	&__wrapper {
 		display: flex;
 		align-items: center;
-		padding: 15px;
+		justify-content: space-between;
 	}
 }
 .nav {
 	list-style: none;
-	display: flex;
-	gap: 46px;
-	&--flex {
-		list-style: none;
+	display: none;
+	@include tablet{
+		display: flex;
+		gap:60px;
+	}
+	@include desktop{
 		display: flex;
 	}
-
+	&__list {
+		list-style: none;
+		display: flex;
+		gap: 46px;
+	}
 	&__link {
 		text-decoration: none;
 		font-weight: 500;
@@ -53,10 +58,17 @@
 }
 .contact-head {
 	list-style: none;
-	display: flex;
+	display: none;
 	align-items: center;
 	margin-left: auto;
 	gap: 50px;
+	@include tablet{
+		display:block;
+		margin-left:0px;
+	}
+	@include desktop{
+		display: block;
+	}
 
 	&__mail {
 		text-decoration: none;
@@ -101,5 +113,9 @@
 		&--icon {
 			margin-right: 10px;
 		}
+		@include tablet{
+			margin-top: 10px;
+		}
 	}
 }
+

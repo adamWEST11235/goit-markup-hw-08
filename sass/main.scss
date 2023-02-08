@@ -1,4 +1,5 @@
-@use "./utils/vars" as *;
+@import "./utils/vars";
+@import "./utils/mixins";
 @import "./components/global";
 @import "./components/header";
 @import "./components/section_effective_solution";
@@ -10,3 +11,4 @@
 @import "./components/modal";
 @import "./components/portfolio";
 @import "./components/socialmedia";
+@import "./components/menu";

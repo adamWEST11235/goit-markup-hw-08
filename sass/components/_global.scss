@@ -6,19 +6,33 @@ body {
 }
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
 .container {
+	max-width: 480px;
+	margin: 0 auto;
 	padding: 0 15px;
-	width: 1200px;
+	text-align: center;
+
+	@include tablet {
+		max-width: 768px;
+	}
+	@include desktop {
+		max-width: 1200px;
+	}
 }
+
 .section {
-	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin: auto;
 }
 
 .logo {
@@ -31,9 +45,9 @@ img {
 	color: #2196f3;
 	display: block;
 
-	&--padding-r {
-		padding-right: 93px;
-	}
+	// &--padding-r {
+	// 	padding-right: 93px;
+	// }
 
 	&--color1 {
 		color: #000000;
@@ -44,7 +58,7 @@ img {
 }
 .list {
 	list-style: none;
-	display: flex;
+	// display: flex;
 	gap: 30px;
 	&__item {
 		&--relative {
